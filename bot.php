@@ -6,8 +6,8 @@ $iMaxTokens = 3000;
 $top_p = 1;
 $frequency_penalty = 0.5;
 $presence_penalty = 0;
-$OPENAI_API_KEY = "Your API KEY HERE";
-$sModel = "text-davinci-003";
+$OPENAI_API_KEY = "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";
+$sModel = "gpt-3.5-turbo";
 $prompt = $getMesg = ($_POST['text']);
 $ch = curl_init();
 $headers  = [
